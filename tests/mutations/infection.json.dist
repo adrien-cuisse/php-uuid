@@ -1,0 +1,21 @@
+{
+    "$schema": "../../../vendor/infection/infection/resources/schema.json",
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "timeout": 10,
+    "phpUnit": {
+        "configDir": "../phpunit"
+    },
+    "logs": {
+        "text": "tests/mutations"
+    },
+    "mutators": {
+        "@default": true,
+        "global-ignore": [
+            "*Exception::__construct"
+        ]
+    }
+}

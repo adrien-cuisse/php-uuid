@@ -1,0 +1,11 @@
+
+# Coverage report
+tests/coverage/
+
+# Testing lib junk cache
+tests/phpunit/.cache/
+
+# IDE junk
+.idea/
+
+vendor/
